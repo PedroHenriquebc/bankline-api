@@ -6,7 +6,6 @@ import javax.persistence.Embedded;
 
 @Embeddable
 public class Conta {
-
     @Column(name = "conta_numero")
     private Long numero;
 
